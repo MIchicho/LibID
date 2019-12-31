@@ -150,6 +150,28 @@ $ python -m json.tool outputs/com.example.root.analyticaltranslator_6.json
 }
 ```
 
+output example
+```
+{
+    "libraries": [
+        {
+            "category": "standard_repo",
+            "name": "EventBus",
+            "similarity": 1.0,
+            "matched_root_package": [
+                "Lorg/greenrobot/eventbus"
+            ],
+            "version": [
+                "3.1.1",
+                "3.1.0"
+            ],
+            "shrink_percentage": 0.5943396226415094,
+            "root_package_exist": true
+        }
+    ],
+    "time": 212.7255883216858
+}
+```
 
 ## Documentation
 
