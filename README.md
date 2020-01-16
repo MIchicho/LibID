@@ -58,6 +58,12 @@ Profiling all related files (*.apk | *.jar | *.dex) inside a directory:
 
 The generated profiles will be stored as .json files.
 
+Considering the *.aar file you can use the following comand to handle this problem:
+
+```
+./handleAAR.py -d aar_path
+```
+
 ### Library Detection
 ```
 $ ./LibID.py detect -h
