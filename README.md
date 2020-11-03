@@ -24,7 +24,7 @@ To use other integer programming solvers, users need to change Gurobi related fu
 To use LibID, users should first use the `profile` subcommand to generate app and library profiles from their binaries. Then, users can use the `detect` subcommand to detect if a library is used in an app.
 
 ### Change TPL's format from ".aar" to ".jar"
-Considering the LibID cannot handle the aar format third-party libraries (TPLs) directly, we should change the aar format into the jar format first before we use the LibID to profile the apk and TPLs.
+Considering the LibID cannot handle the third-party libraries (TPLs) inaar format directly, we should change the aar format into the jar format first before we use the LibID to profile the apk and TPLs.
 
 ```
 Usage:
